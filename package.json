@@ -1,11 +1,12 @@
 {
   "name": "boilerplate_typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TypeScript boilerplate with strict config, testing, and linting",
+  "main": "dist/index.js",
   "scripts": {
     "start": "tsx --env-file=.env ./src/index.ts",
     "build": "tsc",
+    "clean": "rm -rf dist",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint src test",
