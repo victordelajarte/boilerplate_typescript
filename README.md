@@ -1,1 +1,1 @@
-To launch the tests : `npm test`
+To launch the tests : `pnpm test`
