@@ -3,6 +3,11 @@
         "esModuleInterop": true,
         "module": "nodenext",
         "target": "esnext",
-        "moduleResolution": "nodenext"
-    }
+        "moduleResolution": "nodenext",
+        "strict": true,
+        "outDir": "./dist",
+        "rootDir": "./src"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "test"]
 }
